@@ -1,12 +1,3 @@
-#' Create a custom Table like in SPSS
-#'
-#' Take a dataframe and index them by number.
-#' @param: data the dataset
-#' @param: varx variable on the x-axis of the table
-#' @param: vary variable on the y-axis of the table
-#' @param: Gewichtung You can use weights on the Output
-#' @param: varGewicht Vector, where the weights are stored
-#' @export
 
 mp_CTable <- function(data, varx, vary, Gewichtung = FALSE, varGewicht){
 
@@ -52,6 +43,3 @@ mp_CTable <- function(data, varx, vary, Gewichtung = FALSE, varGewicht){
 
     return(Ergframe)
 }
-
-
-
