@@ -1,4 +1,4 @@
-mp_stacked_col <- function(x, Label = FALSE, columnname) {
+hc_stacked_col <- function(x, Label = FALSE, columnname) {
     for(i in 1:ncol(x)) {
         if(i == 1) {
             ergframe <- data.frame(matrix(nrow = length(unique(x[[1]])), ncol = 0))

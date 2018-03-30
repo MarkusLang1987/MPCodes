@@ -8,7 +8,7 @@
 #' @param: varGewicht Vector, where the weights are stored
 #' @export
 
-mp_CTable <- function(data, varx, vary, Gewichtung = FALSE, varGewicht){
+CTable <- function(data, varx, vary, Gewichtung = FALSE, varGewicht){
 
     a = 1
     b = 2
