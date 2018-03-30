@@ -1,4 +1,4 @@
-hc_stacked_col_ser <- function(x, Label = FALSE, columnname) {
+mp_stacked_col_ser <- function(x, Label = FALSE, columnname) {
     for(i in 1:ncol(x)) {
         if(i == 1) {
             ergframe <- data.frame(matrix(nrow = length(unique(x[[1]])), ncol = 0))
@@ -32,3 +32,5 @@ hc_stacked_col_ser <- function(x, Label = FALSE, columnname) {
     return(series)
 
 }
+
+
