@@ -3,3 +3,7 @@ hc_col <- function(x){
     row.names(data) <- sort(unique(x))
     return(data)
 }
+
+
+
+
